@@ -8,6 +8,6 @@
   es_source rpcconfsrc = EmptyESSource {
      string recordName = "L1RPCConfigRcd"
      vuint32 firstValid = { 1 }
-     bool iovIsRunNotTime = false
+     bool iovIsRunNotTime = true
   }
 
