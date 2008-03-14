@@ -44,7 +44,9 @@ void TestConeBuilder::beginJob(const edm::EventSetup& iSetup) {
 
 void TestConeBuilder::analyze(const edm::Event& evt, const edm::EventSetup& evtSetup) {
   //aa
-    std::cout << "New event" << std::endl<< std::endl;
+    static int ev = 1;
+
+    std::cout << "New event " << ev++ << std::endl;
     edm::ESHandle<L1RPCConeBuilder> coneBuilder;
     evtSetup.get<L1RPCConeBuilderRcd>().get(coneBuilder);
     
