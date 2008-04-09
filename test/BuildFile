@@ -9,6 +9,11 @@
  <library file=TestConeBuilder.cc name=TestConeBuilder>
    <flags EDM_PLUGIN=1>
  </library>
+
  <library file=RPCConeConnectionsAna.cc name=RPCConeConnectionsAna>
+   <flags EDM_PLUGIN=1>
+ </library>
+
+ <library file=TestHWConfig.cc name=TestHWConfig>
    <flags EDM_PLUGIN=1>
  </library>
