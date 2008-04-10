@@ -1,0 +1,14 @@
+  es_module  l1RPCHwConfig = RPCTriggerHwConfig {
+
+       vint32 disableCrates = {}
+       vint32 disableTowers = {}
+
+       bool disableAll = false
+       vint32 enableTowers = {}
+       vint32 enableCrates = {}
+
+       int32 firstBX = 0
+       int32 lastBX = 0
+
+    }
+
