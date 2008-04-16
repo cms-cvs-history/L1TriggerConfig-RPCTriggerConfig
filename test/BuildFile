@@ -17,3 +17,7 @@
  <library file=TestHWConfig.cc name=TestHWConfig>
    <flags EDM_PLUGIN=1>
  </library>
+
+ <library file=WriteVHDL.cc name=WriteVHDL>
+   <flags EDM_PLUGIN=1>
+ </library>
