@@ -65,7 +65,7 @@ void TestConeBuilder::analyze(const edm::Event& evt, const edm::EventSetup& evtS
     evt.getByLabel("muonRPCDigis",rpcDigis);
     // iEvent.getByLabel(m_label, rpcDigis);
     
-    L1RpcLogConesVec conesByTrigger = m_theLinksystem.getCones(rpcDigis);
+    L1RpcLogConesVec conesByTrigger = m_theLinksystem.getCones(rpcDigis,0);
     L1RpcLogConesVec conesByES = getConesFromES(rpcDigis,coneBuilder);
     
     //conesByES.begin()->setLogStrip(1,5);
