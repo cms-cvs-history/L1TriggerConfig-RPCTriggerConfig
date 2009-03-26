@@ -7,10 +7,6 @@
  <use name=L1Trigger/RPCTrigger>
 <use name=DataFormats/RPCDigi>
 
- <library file=TestConeBuilder.cc name=TestConeBuilder>
-   <flags EDM_PLUGIN=1>
- </library>
-
  <library file=RPCConeConnectionsAna.cc name=RPCConeConnectionsAna>
    <flags EDM_PLUGIN=1>
  </library>
