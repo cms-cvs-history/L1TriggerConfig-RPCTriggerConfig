@@ -18,3 +18,9 @@
  <library file=WriteVHDL.cc name=WriteVHDL>
    <flags EDM_PLUGIN=1>
  </library>
+ 
+ <library file=DumpConeDefinition.cc name=DumpConeDefinition>
+   <flags EDM_PLUGIN=1>
+ </library>
+ 
+ 
