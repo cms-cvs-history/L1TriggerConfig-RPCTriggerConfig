@@ -22,5 +22,9 @@
  <library file=DumpConeDefinition.cc name=DumpConeDefinition>
    <flags EDM_PLUGIN=1>
  </library>
+
+ <library file=DumpL1RPCConfig.cc name=DumpL1RPCConfig>
+   <flags EDM_PLUGIN=1>
+ </library>
  
  
