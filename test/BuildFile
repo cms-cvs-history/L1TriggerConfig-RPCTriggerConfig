@@ -26,5 +26,12 @@
  <library file=DumpL1RPCConfig.cc name=DumpL1RPCConfig>
    <flags EDM_PLUGIN=1>
  </library>
- 
+
+ <library file=DumpL1RPCHsbConfig.cc name=DumpL1RPCHsbConfig>
+   <flags EDM_PLUGIN=1>
+ </library>
+
+ <library file=DumpL1RPCBxOrConfig.cc name=DumpL1RPCBxOrConfig>
+   <flags EDM_PLUGIN=1>
+ </library>
  
